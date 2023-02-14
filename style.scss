@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+%box {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+%section-album {
+    width: 30%;
+    background-size: cover;
+    margin: 50px 0;
+    height: 500px;
+}
+
+@mixin text($color, $top, $bottom) {
+    color: $color;
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+
+@mixin textarea ($height){
+    height: height;
+    border-bottom: 3px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    resize: none;
+    background: none;
+}
+button {
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #f39c12;
+    border: none;
+    font-size: 20px;
+    color: black;
+    &:hover{
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.temp{
+    height: 500px;
+}
+
+.header {
+    background-image: url(/img/waffles.jpg);
+    background-size: cover;
+    background-position:  center center;
+}
+
+.header__wrap {    
+    background-color: rgba(0, 0, 0, 0.514);
+    @extend %box;
+    padding: 30px;
+    
+    .header__logo {
+        width: 150px;
+        margin: 20px 0;
+    }
+    
+    .header__nav--item{
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 20px;
+        
+        @include text (white, 0, 0);
+        
+        &:hover {
+            cursor: pointer;
+            color: #f39c12;
+        }
+    }
+}
+
+.header__bottom {
+    .header__bottom--day {
+        @include text (#f39c12,0, 10px);
+    }
+    
+    .header__bottom--time {
+        @include text (white, 0, 0);
+    }
+}
+
+.section-enjoy {
+    background-color: #ecf0f1;
+    background-image: url(/img/pattern.png);
+    
+    p{
+        @include text (black,20px, 30px);
+
+    }
+    
+    .section-enjoy__text{
+        @extend %box;
+    }
+
+    .section-enjoy__img{
+        background-image: url(/img/waffle-sm.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: center -1rem;
+    }
+}
+
+.section-history{
+
+    .section-history__deco{
+        background-color: #7f8c8d5e;
+        height: 50px;
+        width: 100%;
+    }
+}
+
+.section-history__wrap {
+    @extend %box;
+    max-width: 1400px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+
+    .section-history__text{
+        margin: 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h2{
+            @include text (black,30px, 30px);
+        }
+        p{
+            @include text (black,0, 30px);
+        }
+    }
+
+    .section-history__border{
+        border: 1px solid #7f8c8d;
+        width : 100%;
+    }
+
+    video {
+        height: 400px;
+        outline: none;
+        border: none;
+    }
+}
+
+.section-album {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7f8c8d;
+    .section-album__img--left {
+        background-image: url(/img/fancy-meal.jpg);
+        @extend %section-album;
+    }
+    .section-album__img--middle {
+        background-image: url(/img/bacon.jpg);
+        @extend %section-album;
+    }
+    .section-album__img--right {
+        background-image: url(/img/rice.jpg);
+        @extend %section-album;
+    }
+}
+.section-menu {
+    background-color: #dcdde1;
+    .section-menu__wrap {
+        max-width: 1400px;
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        .section-menu__item {
+            padding: 50px;
+            h2, p{
+                padding: 10px 20px;
+            }
+            img{
+                width: 100px;
+            }
+        }
+    }
+}
+.footer {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(/img/fruits.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    @extend %box;        
+    .footer-SNS {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        img{
+            width:20px;
+            margin: 10px auto;
+        }
+    }
+    .footer-contact{
+        width: 300px;
+        .footer-contact__title {
+            @include text (#f39c12,0, 10px);
+        }
+        
+        p{
+            @include text (white,0, 10px);
+        }
+    }
+}
+.footer-form{
+    width: 250px;
+    .footer-form__title{
+        color: #f39c12;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .footer-form__wrap{
+        display: block;
+        .form__wrap--row{
+            ::placeholder{
+            text-align: left;
+            color: white;
+            }
+        }
+        textarea {
+            width: 100%;
+            text-align: left;
+            padding-bottom: 10px;
+            resize: none;
+            border: none;
+            ::placeholder{
+                font-size: 20px
+            }
+        }
+        .row--message {
+            @include textarea(100px);
+        }
+        .row--email{
+            @include textarea(10px);
+        }
+        .row--name{
+            @include textarea(10px);
+        }
+    }
+    .footer-form__btn {
+        padding: 10px 20px;
+        margin: 20px auto;
+        background-color: #f39c12;
+        border: none;
+        font-size: 20px;
+        color: black;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.footer-bottom {
+    
+    .footer-bottom__terms {
+        span {
+            color: white;
+            margin: 0 20px;
+        }
+        a {
+            text-decoration: none;
+            @include text (white, 0, 0);
+            &:hover{
+                cursor: pointer;
+                color: #f39c12;
+            }
+        }
+    }
+    .footer-bottom__copyright{
+
+        margin-top: 30px;
+
+        span{
+            @include text (black,0, 0);
+
+        
+        }
+    }
+}
+
+
+
+
+
+
