@@ -5,10 +5,18 @@
     text-align: center;
 }
 // https://aboveimagine.tistory.com/90
-
 div {
     min-width: 320px;
 }
+
+// #main {
+
+//     div {
+//         min-width: 320px;
+//     }
+
+// }
+
 
 %box {
     padding: 50px;
@@ -66,11 +74,13 @@ button {
     @extend %box;
     padding: 30px;
     
-    .header__logo {
-        width: 150px;
-        margin: 20px 0;
-    }
+        .header__logo {
+            width: 150px;
+            margin: 20px 0;
+        }
+
     
+
     .header__nav--item{
         text-decoration: none;
         font-size: 20px;
@@ -319,6 +329,7 @@ button {
 
     .section-history {
         &__wrap {
+            padding: 20px 0;
             color: blue;
             display: inline-block;
                 video {

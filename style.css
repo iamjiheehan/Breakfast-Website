@@ -304,6 +304,7 @@ button:hover {
     background-position: center 2cm;
   }
   .section-history__wrap {
+    padding: 20px 0;
     color: blue;
     display: inline-block;
   }

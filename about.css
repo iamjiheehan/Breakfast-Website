@@ -1,1 +1,25 @@
-/*# sourceMappingURL=about.css.map */
+.header {
+  background-image: url(/img/fancy-meal.jpg);
+}
+.header .header__nav a:nth-of-type(2) {
+  color: #f39c12;
+}
+
+.about {
+  min-width: 100%;
+  height: auto;
+}
+.about .about-header {
+  background-color: #f39c12;
+}
+.about .about-intro {
+  display: flex;
+  justify-content: center;
+  border: 5px solid black;
+}
+.about .about-intro h2 {
+  border: 2px solid red;
+}
+.about .about-intro p {
+  border: 2px solid blue;
+}/*# sourceMappingURL=about.css.map */
