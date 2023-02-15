@@ -2,9 +2,10 @@
   margin: 0;
   box-sizing: border-box;
   text-align: center;
+  line-height: 20px;
 }
 
-div {
+footer {
   min-width: 320px;
 }
 

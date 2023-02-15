@@ -3,20 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     text-align: center;
+    line-height: 20px;
 }
 // https://aboveimagine.tistory.com/90
-div {
+footer {
     min-width: 320px;
 }
-
-// #main {
-
-//     div {
-//         min-width: 320px;
-//     }
-
-// }
-
 
 %box {
     padding: 50px;
@@ -358,7 +350,6 @@ button {
     .section-menu .section-menu__wrap {
         display: inline-block;
     }
-
 
     .footer-wrap {
         padding: 0;

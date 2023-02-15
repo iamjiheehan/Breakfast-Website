@@ -1,3 +1,9 @@
+.about-intro__text {
+  padding: 20px 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   background-image: url(/img/fancy-meal.jpg);
 }
@@ -9,17 +15,38 @@
   min-width: 100%;
   height: auto;
 }
-.about .about-header {
-  background-color: #f39c12;
+.about p {
+  padding-top: 30px;
 }
-.about .about-intro {
+.about-header {
+  background-color: #f8e9d0;
+}
+.about-intro {
   display: flex;
   justify-content: center;
-  border: 5px solid black;
 }
-.about .about-intro h2 {
-  border: 2px solid red;
+.about-intro__text {
+  width: 30%;
+  margin: 10px;
 }
-.about .about-intro p {
-  border: 2px solid blue;
+.about-intro__text h3, .about-intro__text h2, .about-intro__text p {
+  text-align: left;
+}
+.about-intro__img {
+  margin: 20px 0;
+}
+.about-intro__img img {
+  width: 310px;
+}
+
+.about-slider__Box .about-slider__img {
+  background-image: url(/img/bigbreakfast.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.about-slider__Box .about-slider__temp {
+  background-image: url(/img/pattern2.png);
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0.185);
+  height: 50px;
 }/*# sourceMappingURL=about.css.map */
