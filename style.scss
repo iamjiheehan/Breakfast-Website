@@ -1,7 +1,13 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
     text-align: center;
+}
+// https://aboveimagine.tistory.com/90
+
+div {
+    min-width: 320px;
 }
 
 %box {
@@ -125,13 +131,13 @@ button {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 
     .section-history__text{
         margin: 0 30px;
-        display: flex;
+        // display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        // justify-content: space-around;
         h2{
             @include text (black,30px, 30px);
         }
@@ -156,6 +162,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     background-color: #7f8c8d;
+    flex-wrap: wrap;
     .section-album__img--left {
         background-image: url(/img/fancy-meal.jpg);
         @extend %section-album;
@@ -169,11 +176,12 @@ button {
         @extend %section-album;
     }
 }
+
 .section-menu {
     background-color: #dcdde1;
     .section-menu__wrap {
         max-width: 1400px;
-        padding: 0 50px;
+        padding: 0 25px;
         display: flex;
         justify-content: center;
         margin-left: auto;
@@ -189,6 +197,7 @@ button {
         }
     }
 }
+
 .footer {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(/img/fruits.jpg);
     background-size: cover;
@@ -209,7 +218,7 @@ button {
         }
     }
     .footer-contact{
-        width: 300px;
+        width: 100%;
         .footer-contact__title {
             @include text (#f39c12,0, 10px);
         }
@@ -220,7 +229,7 @@ button {
     }
 }
 .footer-form{
-    width: 250px;
+    width: 50%;
     .footer-form__title{
         color: #f39c12;
         text-align: left;
@@ -228,6 +237,8 @@ button {
     }
     .footer-form__wrap{
         display: block;
+        position: relative;
+
         .form__wrap--row{
             ::placeholder{
             text-align: left;
@@ -288,15 +299,82 @@ button {
         margin-top: 30px;
 
         span{
-            @include text (black,0, 0);
-
-        
+            @include text (rgb(189, 189, 189),0, 0);
         }
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .header__wrap {
+        .header__nav--item {
+            margin: 0 5px;
+        }
+    }
+
+    .section-enjoy .section-enjoy__img {
+        background-size: contain;
+        background-position: center 2cm;
+    }
+
+    .section-history {
+        &__wrap {
+            color: blue;
+            display: inline-block;
+                video {
+                display: inline-block;
+                width: auto\9 !important; /* ie8 */
+                width: auto !important;
+                max-width: 100%;
+                height: auto !important;
+                }
+        }
+    }
+
+    .section-album {
+        display: inline;
+        width: 100%;
+    
+        .section-album__img--left,
+        .section-album__img--middle,
+        .section-album__img--right {
+            width: 100%;
+        }
+    }
+    .section-menu .section-menu__wrap .section-menu__item {
+        padding: 30px 0;
+    }
+    .section-menu .section-menu__wrap {
+        display: inline-block;
+    }
 
 
+    .footer-wrap {
+        padding: 0;
+        display: inline-block;
+        
+        .footer-SNS,
+        .footer-form,
+        .footer-contact {
+            width: 100%;
+        }
+    
+        .footer-form {
+            &__title {
+            text-align: center;
+            }
+        }
+    
+        .footer-SNS {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+    }
 
-
-
+    .footer-bottom {
+        &__copyright {
+            margin-top: 20px;
+        }
+    }
+}

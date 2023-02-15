@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+div {
+  min-width: 320px;
+}
+
 .footer-wrap, .section-history__wrap, .section-enjoy .section-enjoy__text, .header__wrap {
   padding: 50px;
   margin-left: auto;
@@ -99,13 +103,11 @@ button:hover {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .section-history__wrap .section-history__text {
   margin: 0 30px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 .section-history__wrap .section-history__text h2 {
   color: black;
@@ -131,6 +133,7 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   background-color: #7f8c8d;
+  flex-wrap: wrap;
 }
 .section-album .section-album__img--left {
   background-image: url(/img/fancy-meal.jpg);
@@ -147,7 +150,7 @@ button:hover {
 }
 .section-menu .section-menu__wrap {
   max-width: 1400px;
-  padding: 0 50px;
+  padding: 0 25px;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -184,7 +187,7 @@ button:hover {
   margin: 10px auto;
 }
 .footer-wrap .footer-contact {
-  width: 300px;
+  width: 100%;
 }
 .footer-wrap .footer-contact .footer-contact__title {
   color: #f39c12;
@@ -198,7 +201,7 @@ button:hover {
 }
 
 .footer-form {
-  width: 250px;
+  width: 50%;
 }
 .footer-form .footer-form__title {
   color: #f39c12;
@@ -207,6 +210,7 @@ button:hover {
 }
 .footer-form .footer-form__wrap {
   display: block;
+  position: relative;
 }
 .footer-form .footer-form__wrap .form__wrap--row ::-moz-placeholder {
   text-align: left;
@@ -286,7 +290,63 @@ button:hover {
   margin-top: 30px;
 }
 .footer-bottom .footer-bottom__copyright span {
-  color: black;
+  color: rgb(189, 189, 189);
   padding-top: 0;
   padding-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__wrap .header__nav--item {
+    margin: 0 5px;
+  }
+  .section-enjoy .section-enjoy__img {
+    background-size: contain;
+    background-position: center 2cm;
+  }
+  .section-history__wrap {
+    color: blue;
+    display: inline-block;
+  }
+  .section-history__wrap video {
+    display: inline-block;
+    width: auto\9  !important; /* ie8 */
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+  .section-album {
+    display: inline;
+    width: 100%;
+  }
+  .section-album .section-album__img--left,
+  .section-album .section-album__img--middle,
+  .section-album .section-album__img--right {
+    width: 100%;
+  }
+  .section-menu .section-menu__wrap .section-menu__item {
+    padding: 30px 0;
+  }
+  .section-menu .section-menu__wrap {
+    display: inline-block;
+  }
+  .footer-wrap {
+    padding: 0;
+    display: inline-block;
+  }
+  .footer-wrap .footer-SNS,
+  .footer-wrap .footer-form,
+  .footer-wrap .footer-contact {
+    width: 100%;
+  }
+  .footer-wrap .footer-form__title {
+    text-align: center;
+  }
+  .footer-wrap .footer-SNS {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .footer-bottom__copyright {
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
