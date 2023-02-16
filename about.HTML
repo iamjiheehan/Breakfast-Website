@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="about.css" type="text/css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" style="background-image: url(/img/fancy-meal.jpg);">
         <div class="header__wrap">
             <img class="header__logo" src="/img/brand-ico.png">
             <nav class="header__nav">
                 <a onclick="location.href='index.HTML'" class="header__nav--item">HOME</a>
-                <a onclick="location.href='about.HTML'" class="header__nav--item">ABOUT</a>
-                <a onclick="location.href='menu.HTML'" class="header__nav--item">MENU</a>
+                <a style="color:#f39c12" onclick="location.href='about.HTML'" class="header__nav--item">ABOUT</a>
+                <a style="color:white" onclick="location.href='menu.HTML'" class="header__nav--item">MENU</a>
                 <a onclick="location.href='contact.HTML'" class="header__nav--item">CONTACT</a>
             </nav>
         </div>
@@ -76,52 +76,61 @@
                 </div>
             </div>
         </div>
-    <footer class="footer">
-        <div class="footer-wrap">
-            <div class="footer-SNS">
-                <img src="/img/twitter-ico.png" alt="..">
-                <img src="/img/yt-ico.png" alt="..">
-                <img src="/img/insta-ico.png" alt="..">
-                <img src="/img/linkedin-ico.png" alt="..">
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="footer-SNS">
+                <a href="https://twitter.com/?lang=ko">
+                    <img src="/img/twitter-ico.png" alt="..">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="/img/yt-ico.png" alt="..">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="/img/insta-ico.png" alt="..">
+                </a>
+                <a href="https://kr.linkedin.com/">
+                    <img src="/img/linkedin-ico.png" alt="..">
+                </a>
+                </div>
+                <div class="footer-contact">
+                    <h2 class="footer-contact__title">CONTACT US</h2>
+                    <p class="footer-contact__content">225 Liberty St, 4th Fl.</p>
+                    <p class="footer-contact__content">New York, NY 10281</p>
+                    <p class="footer-contact__content">010-8608-8219</p>
+                    <p class="footer-contact__content">JIHEE HAN</p>
+                </div>
+                <div class="footer-form">
+                    <h2 class="footer-form__title">GET IN TOUCH</h2>
+                    <form class="footer-form__wrap">
+                        <div class="form__wrap--row">
+                            <textarea  rows="1" cols="30" class="row--name" name="name" placeholder="NAME"></textarea><br />
+                        </div>
+                        <div class="form__wrap--row">
+                            <textarea  rows="1" cols="30"class="row--email" name="email" placeholder="EMAIL"></textarea><br />
+                        </div>
+                        <div class="form__wrap--row">
+                            <textarea  class="row--message" name="message" rows="7" cols="30" placeholder="MESSAGE"></textarea><br />
+                        </div>
+                        <button onclick="window.open('http://www.google.com')">send</button>
+                        <!-- <input class="footer-form__btn" type="submit" value="send" /> -->
+                    </form>
+                </div>
             </div>
-            <div class="footer-contact">
-                <h2 class="footer-contact__title">CONTACT US</h2>
-                <p class="footer-contact__content">225 Liberty St, 4th Fl.</p>
-                <p class="footer-contact__content">New York, NY 10281</p>
-                <p class="footer-contact__content">010-8608-8219</p>
-                <p class="footer-contact__content">JIHEE HAN</p>
+            <div class="footer-bottom">
+                <div class="footer-bottom__terms">
+                    <a href="#">Terms</a>
+                    <span>|</span>
+                    <a href="#">Privacy</a>
+                    <span>|</span>
+                    <a href="#">Code of Conduct</a>
+                    <span>|</span>
+                    <a href="#">Accessibility Policy</a>
+                </div>
+                <div class="footer-bottom__copyright">
+                    <span>Copyright ©2023 JIHEE BREAKFAST®. All rights reserved.</span>
+                </div>
             </div>
-            <div class="footer-form">
-                <h2 class="footer-form__title">GET IN TOUCH</h2>
-                <form class="footer-form__wrap">
-                    <div class="form__wrap--row">
-                        <textarea  rows="1" cols="30" class="row--name" name="name" placeholder="NAME"></textarea><br />
-                    </div>
-                    <div class="form__wrap--row">
-                        <textarea  rows="1" cols="30"class="row--email" name="email" placeholder="EMAIL"></textarea><br />
-                    </div>
-                    <div class="form__wrap--row">
-                        <textarea  class="row--message" name="message" rows="7" cols="30" placeholder="MESSAGE"></textarea><br />
-                    </div>
-                    <button onclick="window.open('http://www.google.com')">send</button>
-                    <!-- <input class="footer-form__btn" type="submit" value="send" /> -->
-                </form>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="footer-bottom__terms">
-                <a href="#">Terms</a>
-                <span>|</span>
-                <a href="#">Privacy</a>
-                <span>|</span>
-                <a href="#">Code of Conduct</a>
-                <span>|</span>
-                <a href="#">Accessibility Policy</a>
-            </div>
-            <div class="footer-bottom__copyright">
-                <span>Copyright ©2023 JIHEE BREAKFAST®. All rights reserved.</span>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+        </footer>
+    </body>
+    </html>
+    

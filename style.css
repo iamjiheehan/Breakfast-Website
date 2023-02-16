@@ -35,6 +35,11 @@ button:hover {
   color: white;
 }
 
+a:hover {
+  cursor: pointer;
+  color: #f39c12;
+}
+
 .temp {
   height: 500px;
 }
