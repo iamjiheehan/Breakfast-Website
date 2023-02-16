@@ -22,7 +22,7 @@
   background-color: #f8e9d0;
 }
 .about-header-juice {
-  width: 250px;
+  width: 172px;
   position: sticky;
   float: right;
   top: 100px;
@@ -49,4 +49,17 @@
 }
 .about-intro__img img {
   width: 360px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-intro {
+    display: inline-block;
+  }
+  .about-intro__text {
+    width: 100%;
+    margin: 0;
+  }
+  .about-header-juice {
+    width: 56px;
+  }
 }/*# sourceMappingURL=about.css.map */
