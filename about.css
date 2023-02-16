@@ -21,13 +21,25 @@
 .about-header {
   background-color: #f8e9d0;
 }
+.about-header-juice {
+  width: 250px;
+  position: sticky;
+  float: right;
+  top: 100px;
+}
+.about-second {
+  background-color: #fffbf3;
+}
+.about-third {
+  background-color: #f8e9d0;
+}
 .about-intro {
   display: flex;
   justify-content: center;
 }
 .about-intro__text {
   width: 30%;
-  margin: 10px;
+  margin: 20px 10px;
 }
 .about-intro__text h3, .about-intro__text h2, .about-intro__text p {
   text-align: left;
@@ -36,17 +48,5 @@
   margin: 20px 0;
 }
 .about-intro__img img {
-  width: 310px;
-}
-
-.about-slider__Box .about-slider__img {
-  background-image: url(/img/bigbreakfast.jpg);
-  background-size: cover;
-  height: 600px;
-}
-.about-slider__Box .about-slider__temp {
-  background-image: url(/img/pattern2.png);
-  background-size: contain;
-  background-color: rgba(0, 0, 0, 0.185);
-  height: 50px;
+  width: 360px;
 }/*# sourceMappingURL=about.css.map */

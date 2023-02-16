@@ -15,11 +15,24 @@
 .about {
     min-width: 100%;
     height:auto;
-
     p {
         padding-top: 30px;
     }
     &-header {
+        background-color: #f8e9d0;
+
+        &-juice {
+            width: 250px;
+            position: sticky;
+            float: right;
+            top: 100px;
+
+        }
+    }
+    &-second {
+        background-color: #fffbf3;
+    }
+    &-third {
         background-color: #f8e9d0;
     }
     &-intro {
@@ -29,38 +42,16 @@
         &__text {
             @extend %box;
             width: 30%;
-            margin: 10px;
+            margin: 20px 10px;
             h3, h2, p {
                 text-align: left;
             }
         }
-
         &__img {
             margin: 20px 0;
             img{
-                width: 310px;
+                width: 360px;
             }
         }
     }
 }
-
-.about-slider__Box {
-    .about-slider__img{
-        background-image: url(/img/bigbreakfast.jpg);
-        background-size: cover;
-        height: 600px;
-        
-        .about-slider__text {
-        }
-    }
-
-
-    .about-slider__temp{
-        background-image: url(/img/pattern2.png);
-        background-size: contain;
-        background-color: rgba(0, 0, 0, 0.185);
-        height: 50px;
-    }
-}
-
-
