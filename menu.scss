@@ -9,6 +9,10 @@ a{
 
 summary {
     margin-bottom: 20px;
+    &:hover{
+        cursor: pointer;
+        color: #f39c12;
+    }
 }
 
 %flex {
@@ -51,14 +55,11 @@ summary {
     float: left;
     @extend %flex;
     margin-top: 10px;
-
     img{
         width: 30px;
         height: 30px;
         margin-right: 10px;
-    
     }
-        
     span {
         padding: 0;
         line-height: 30px;
@@ -72,9 +73,7 @@ summary {
     }
     .menu-flexbox {
         display: inline-block;
-
     }
-
     .menu-info {
         width: 100%;
         text-align: center;

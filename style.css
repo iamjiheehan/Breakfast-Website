@@ -15,13 +15,6 @@ footer {
   margin-right: auto;
 }
 
-.section-album .section-album__img--right, .section-album .section-album__img--middle, .section-album .section-album__img--left {
-  width: 30%;
-  background-size: cover;
-  margin: 50px 0;
-  height: 500px;
-}
-
 button {
   padding: 10px 20px;
   margin: 20px auto;
@@ -133,6 +126,33 @@ a:hover {
   height: 400px;
   outline: none;
   border: none;
+}
+
+.section-album .section-album__img--right, .section-album .section-album__img--middle, .section-album .section-album__img--left {
+  transition: 0.3s ease-in-out;
+  position: relative;
+  width: 30%;
+  background-size: cover;
+  margin: 50px 0;
+  height: 500px;
+  transition: 0.1s all;
+  overflow: hidden;
+}
+.section-album .section-album__img--right h2, .section-album .section-album__img--middle h2, .section-album .section-album__img--left h2 {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.514);
+  color: #f39c12;
+  position: absolute;
+  width: 100%;
+  transition: 0.5s all;
+  bottom: 0;
+}
+.section-album .section-album__img--right h2:hover, .section-album .section-album__img--middle h2:hover, .section-album .section-album__img--left h2:hover {
+  height: 0%;
+  opacity: 0;
+}
+.section-album .section-album__img--right h2 span, .section-album .section-album__img--middle h2 span, .section-album .section-album__img--left h2 span {
+  color: white;
 }
 
 .section-album {
@@ -301,6 +321,20 @@ a:hover {
   padding-bottom: 0;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .section-history__wrap {
+    padding: 20px 0;
+    color: blue;
+    display: inline-block;
+  }
+  .section-history__wrap video {
+    display: inline-block;
+    width: auto\9  !important; /* ie8 */
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__wrap .header__nav--item {
     margin: 0 5px;
@@ -351,6 +385,7 @@ a:hover {
   .footer-wrap .footer-SNS {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-bottom: 10px;
   }
   .footer-bottom__copyright {
