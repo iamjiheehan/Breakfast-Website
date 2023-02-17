@@ -337,7 +337,7 @@ a:hover {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__wrap .header__nav--item {
-    margin: 0 5px;
+    margin: 0 4px;
   }
   .section-enjoy .section-enjoy__img {
     background-size: contain;
