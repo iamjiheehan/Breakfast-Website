@@ -71,11 +71,15 @@ summary {
     .menu-container {
         padding: 20px;
     }
+
+    .menu-flexbox .menu-info {
+        width: 100%;
+    }
+
     .menu-flexbox {
         display: inline-block;
     }
     .menu-info {
-        width: 100%;
         text-align: center;
         padding-top: 10px;
     }
