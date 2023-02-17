@@ -202,7 +202,8 @@ a:hover{
     }
     .section-album__img--right {
         @extend %album-hover;
-        background-image: url(/img/rice.jpg);
+        background-image: url(/img/toast.jpg);
+        // background-image: url(/img/rice.jpg);
     }
 }
 
