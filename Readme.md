@@ -24,6 +24,9 @@
 #### - 특이점1 : 미디어쿼리를 사용하여 반응형 웹사이트 제작
 #### ![main-edit](https://user-images.githubusercontent.com/102779433/219877263-5ad4c984-a677-4a37-aa97-ed4f1aafc9be.gif)
 
+img src="(https://user-images.githubusercontent.com/102779433/219877263-5ad4c984-a677-4a37-aa97-ed4f1aafc9be.gif" width="250" height="250"/>
+
+
 #### - 특이점2 : 이용약관, see more | read more | 더보기와 같은 태그들을 모두 활성화하여 페이지 이동 가능
 ![menu](https://user-images.githubusercontent.com/102779433/219878704-977907b5-7879-4424-9d5c-b45f742286ca.gif)
 
