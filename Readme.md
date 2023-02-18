@@ -1,38 +1,24 @@
-Restaurant Website
+##  📍HTML,CSS Project - JIHEE BREAKFAST RESTAURANT | 지희 아침식사 식당 
 
-This is a sample website for a restaurant, built using HTML and CSS. The website includes multiple pages with information about the restaurant's menu, history, and contact information. It also features images and videos to showcase the restaurant's food and atmosphere.
+HTML + SCSS - 음식점 웹사이트
 
-Getting Started
-To view the website, simply open the index.html file in a web browser. The website is designed to be responsive, so it should display properly on a range of devices.
+## 🖥 프로젝트 소개
 
-Pages
-The website includes the following pages:
+해외 음식점 웹사이트들을 참고하여 만든 홍보용 사이트입니다.
 
-Home: Provides an overview of the restaurant and its offerings.
 
-About: Includes information about the restaurant's history and values.
+##  📄 화면 구성
 
-Shop: Displays the restaurant's menu, including breakfast and lunch items, desserts, and beverages.
-Contact: Provides contact information for the restaurant, including its address, phone number, and email.
+- ### HOME(메인화면)</br>
+    음식점에서 주로 판매하는 메뉴의 사진들로 구성
+- ### ABOUT</br>
+    해당 음식점의 강점과 직원들 소개
+- ### MENU</br>
+    메뉴 소개로 구성
+- ### CONTACT</br>
+    위치 및 연락처 소개
 
-Features
-The website includes the following features:
-
-Navigation bar: Allows users to easily switch between pages.
-
-Header: Displays the restaurant's logo and hours of operation.
-
-Colorful dishes section: Includes an image and text to showcase the restaurant's visually stunning dishes.
-History section: Includes a video and text to highlight the restaurant's focus on fresh, premium ingredients and delectable dishes.
-
-Album section: Displays multiple images of the restaurant's food and atmosphere.
-
-Menu section: Provides detailed information about the restaurant's menu items.
-
-Footer: Includes links to the restaurant's social media accounts.
-
-Contributing
-This website is a sample project and is not currently open to contributions. However, if you have any feedback or suggestions for improvements, please feel free to contact the restaurant using the information provided on the Contact page.
-
-License
-This website is available under the MIT License. See the LICENSE file for more information.
+## 🌍 미리보기
+### https://jihee-breakfast-restaurant.netlify.app/
+- 목적 : HTML,CSS 만으로 구성된 정적인 웹사이트 구현
+- 특이점 : 미디어쿼리를 사용하여 반응형 웹사이트 제작
