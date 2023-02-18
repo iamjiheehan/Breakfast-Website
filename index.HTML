@@ -7,10 +7,11 @@
     <title>JIHEEH BREAKFAST</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="main">
+<body>
     <header class="header">
         <div class="header__wrap">
             <img class="header__logo" src="/img/brand-ico.png">
+            <!-- navbar 메뉴 -->
             <nav class="header__nav">
                 <a onclick="location.href='index.HTML'" class="header__nav--item">HOME</a>
                 <a onclick="location.href='about.HTML'" class="header__nav--item">ABOUT</a>
@@ -27,6 +28,7 @@
             </div>
         </div>
     </header>
+    <!-- enjoy colorful dishes 섹션 -->
     <div class="section-enjoy">
         <div class="temp section-enjoy__img">
             <div class="section-enjoy__text">
@@ -35,8 +37,8 @@
             </div>
         </div>
         <button onclick="location.href='menu.html'" class="section-enjoy__button">see more</button>
-
     </div>
+    <!-- 비디오 포함 소개 섹션 -->
     <div class="section-history">
         <div class="section-history__deco"></div>
         <div class="section-history__wrap">
@@ -60,9 +62,10 @@
         </div>
         <div class="section-history__deco"></div>
     </div>
+    <!-- 메뉴 앨범 섹션 -->
     <div class="section-album">
         <div class="section-album__img--left">
-            <h2><span>TRY</span> JIHEE BREAKFAST!</h2>
+            <h2><span>TRY</span> JIHEE BREAKFAST</h2>
         </div>
         <div class="section-album__img--middle">
             <h2><span>ENJOY</span> THE TASTE</h2>
@@ -71,44 +74,46 @@
             <h2><span>SAVOR</span> THE FLAVOR</h2>
         </div>
     </div>
+    <!-- 아이콘 메뉴 바로가기 섹션 -->
     <div class="section-menu">
         <div class="section-menu__wrap">
             <div class="section-menu__item">
-                <img src="/img/lunch-ico.png" alt="..">
+                <img src="/img/lunch-ico.png" alt="icon-lunch">
                 <h2 class="section-grape__title">BREAKFAST+ <br/> LUNCH</h2>
                 <p class="section-grape__content">Rise and shine with our delicious breakfast fare, made with fresh, locally sourced ingredients and served with a smile. And when it's time to unwind, our wine list offers a delightful selection of varietals that will help you relax and enjoy the moment.</p>
                 <button onclick="location.href='menu.html'" class="section-enjoy__button">see more</button>
             </div>
             <div class="section-menu__item">
-                <img src="/img/icecream-ico.png" alt="..">
+                <img src="/img/icecream-ico.png" alt="icon-breakfast">
                 <h2 class="section-grape__title">DESSERTS + <br/> BEVERAGES</h2>
                 <p class="section-grape__content">Indulge in our heavenly desserts, crafted with the finest ingredients and served with a smile. From decadent cakes to delicate pastries, each bite is a moment of bliss that you'll want to savor to the last crumb.</p>
                 <button onclick="location.href='menu.html'" class="section-enjoy__button">see more</button>
             </div> 
             <div class="section-menu__item">
-                <img src="./img/wine-ico.png" alt="..">
+                <img src="./img/wine-ico.png" alt="icon-wine">
                 <h2 class="section-grape__title">COCKTAIL + <br/> WINE</h2>
                 <p class="section-grape__content">Whether you're a wine aficionado or a breakfast lover, we have something for you. Our breakfast menu features a range of healthy and indulgent dishes that will suit any palate, and our wine cellar is stocked with a variety of labels that will make your taste buds dance with joy.</p>
                 <button onclick="location.href='menu.html'" class="section-enjoy__button">see more</button>
             </div>
         </div>
     </div>
-    </div>
+    <!-- 기본 footer -->
     <footer class="footer">
         <div class="footer-wrap">
+            <!-- SNS 링크 아이콘 -->
             <div class="footer-SNS">
-            <a href="https://twitter.com/?lang=ko">
-                <img src="/img/twitter-ico.png" alt="..">
-            </a>
-            <a href="https://www.youtube.com/">
-                <img src="/img/yt-ico.png" alt="..">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="/img/insta-ico.png" alt="..">
-            </a>
-            <a href="https://kr.linkedin.com/">
-                <img src="/img/linkedin-ico.png" alt="..">
-            </a>
+                <a href="https://twitter.com/?lang=ko">
+                    <img src="/img/twitter-ico.png" alt="twitter" />
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="/img/yt-ico.png" alt="youtube" />
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="/img/insta-ico.png" alt="instagram" />
+                </a>
+                <a href="https://kr.linkedin.com/">
+                    <img src="/img/linkedin-ico.png" alt="linkedin" />
+                </a>
             </div>
             <div class="footer-contact">
                 <h2 class="footer-contact__title">CONTACT US</h2>
@@ -117,34 +122,57 @@
                 <p class="footer-contact__content">010-8608-8219</p>
                 <p class="footer-contact__content">JIHEE HAN</p>
             </div>
+            <!-- GET IN TOUCH -->
             <div class="footer-form">
                 <h2 class="footer-form__title">GET IN TOUCH</h2>
                 <form class="footer-form__wrap">
-                    <div class="form__wrap--row">
-                        <textarea  rows="1" cols="30" class="row--name" name="name" placeholder="NAME"></textarea><br />
-                    </div>
-                    <div class="form__wrap--row">
-                        <textarea  rows="1" cols="30"class="row--email" name="email" placeholder="EMAIL"></textarea><br />
-                    </div>
-                    <div class="form__wrap--row">
-                        <textarea  class="row--message" name="message" rows="7" cols="30" placeholder="MESSAGE"></textarea><br />
-                    </div>
-                    <button onclick="location.href='contact.html'">send</button>
+                <div class="form__wrap--row">
+                    <textarea
+                    rows="1"
+                    cols="30"
+                    class="row--name"
+                    name="name"
+                    placeholder="NAME"
+                    ></textarea
+                    ><br />
+                </div>
+                <div class="form__wrap--row">
+                    <textarea
+                    rows="1"
+                    cols="30"
+                    class="row--email"
+                    name="email"
+                    placeholder="EMAIL"
+                    ></textarea
+                    ><br />
+                </div>
+                <div class="form__wrap--row">
+                    <textarea
+                    class="row--message"
+                    name="message"
+                    rows="7"
+                    cols="30"
+                    placeholder="MESSAGE"
+                    ></textarea
+                    ><br />
+                </div>
+                <button onclick="location.href='contact.html'">send</button>
                 </form>
             </div>
         </div>
+        <!-- 이용약관 -->
         <div class="footer-bottom">
-            <div class="footer-bottom__terms">
-                <a onclick="location.href='./policymenu/terms.html'">Terms</a>
+            <div class="footer-bottom__terms" style="color: white">
+                <a onclick="location.href='../policymenu/terms.html'">Terms</a>
                 <span>|</span>
-                <a onclick="location.href='./policymenu/privacy.html'">Privacy</a>
+                <a onclick="location.href='../policymenu/privacy.html'">Privacy</a>
                 <span>|</span>
-                <a onclick="location.href='./policymenu/conduct.html'">Code of Conduct</a>
+                <a onclick="location.href='../policymenu/conduct.html'">Code of Conduct</a>
                 <span>|</span>
-                <a onclick="location.href='./policymenu/access.html'">Accessibility Policy</a>
+                <a onclick="location.href='../policymenu/access.html'">Accessibility Policy</a>
             </div>
             <div class="footer-bottom__copyright">
-                <span>©2023 JIHEE BREAKFAST®. All rights reserved.</span>
+                <span>Copyright ©2023 JIHEE BREAKFAST®. All rights reserved.</span>
             </div>
         </div>
     </footer>
