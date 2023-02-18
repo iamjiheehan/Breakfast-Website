@@ -25,8 +25,7 @@ HTML + SCSS - 음식점 웹사이트
 ![main-edit](https://user-images.githubusercontent.com/102779433/219877263-5ad4c984-a677-4a37-aa97-ed4f1aafc9be.gif)
 
 - 특이점2 : 이용약관, see more | read more | 더보기와 같은 태그들을 모두 활성화하여 페이지 이동 가능
-https://user-images.githubusercontent.com/102779433/219878424-993bc238-633e-411f-bd8b-1a3c2dec4bad.mp4
-
+![menu](https://user-images.githubusercontent.com/102779433/219878704-977907b5-7879-4424-9d5c-b45f742286ca.gif)
 
 - 특이점3 : iframe 태그를 이용한 구글지도 연동 
 ![contact](https://user-images.githubusercontent.com/102779433/219877409-b0f71f1b-03aa-4431-af40-368fde453391.gif)
