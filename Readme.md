@@ -1,6 +1,6 @@
 ##  📍HTML,CSS Project - JIHEE BREAKFAST RESTAURANT | 지희 아침식사 식당 
 
-##### HTML + SCSS - 음식점 웹사이트
+##### HTML + SCSS/CSS - 음식점 웹사이트
 
 ## 🖥 프로젝트 소개
 
@@ -20,7 +20,7 @@
 
 ## 🌍 미리보기
 ### 웹사이트 : https://jihee-breakfast-restaurant.netlif
- ###  목적 : HTML,CSS 만으로 구성된 정적인 웹사이트 구현
+ ###  목적 : HTML,CSS/SCSS 만으로 구성된 정적인 웹사이트 구현
 - ####  특이점1 : 미디어쿼리를 사용하여 반응형 웹사이트 제작
 
 <img src="https://user-images.githubusercontent.com/102779433/219877263-5ad4c984-a677-4a37-aa97-ed4f1aafc9be.gif" width="50%"/>
