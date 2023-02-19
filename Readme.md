@@ -27,24 +27,16 @@
  ###  목적 : HTML,CSS/SCSS 만으로 구성된 정적인 웹사이트 구현
 - ####  특이점1 : 미디어쿼리를 사용하여 반응형 웹사이트 제작
 
-<img src="https://user-images.githubusercontent.com/102779433/219877263-5ad4c984-a677-4a37-aa97-ed4f1aafc9be.gif" width="50%"/>
-
 ![main](https://user-images.githubusercontent.com/102779433/219938111-4de0b317-ed01-4858-9718-ed64c5cac06e.gif)
 
 - ####  특이점2 : 이용약관, see more | read more | 더보기와 같은 태그들을 모두 활성화하여 페이지 이동 가능
-
-<img src="https://user-images.githubusercontent.com/102779433/219878704-977907b5-7879-4424-9d5c-b45f742286ca.gif" width="50%"/>
 
 ![menu](https://user-images.githubusercontent.com/102779433/219938124-8fb4416c-7e94-4806-b1c9-42d2985e28f8.gif)
 
 
 - ####  특이점3 : iframe 태그를 이용한 구글지도 연동 
 
-<img src="https://user-images.githubusercontent.com/102779433/219880039-0e369cf3-53ce-4de2-8b3a-22be45e0f945.gif" width="50%"/>
-
 ![contact](https://user-images.githubusercontent.com/102779433/219938128-e9c81522-6ac3-4beb-969f-86d3e3f56e3b.gif)
-
-
 
 ___
 
