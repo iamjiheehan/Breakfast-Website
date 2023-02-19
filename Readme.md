@@ -38,7 +38,10 @@
 
 <img src="https://user-images.githubusercontent.com/102779433/219880039-0e369cf3-53ce-4de2-8b3a-22be45e0f945.gif" width="50%"/>
 
+![contact](https://user-images.githubusercontent.com/102779433/219937337-9095f3b5-653d-45af-9182-e09496477f67.gif)
+
 ___
+
 
 ### ✔JIHEE BREAKFAST RESTAURANT 프로젝트로 진행한 계기
 - ##### 디자인 : PSD,JPG 파일로 구성된 해외 웹사이트들의 여러 템플릿을 보고 저의 주관적인 미적 관점에서 조금씩 수정했습니다.
