@@ -32,6 +32,8 @@ a{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        object-position: center;
+
     }
     .square-thumb {
         height: 400px; 
@@ -39,6 +41,7 @@ a{
         border: 5px solid #f39c12;
     }
     .submenu-btn{
+
         @extend %flex;
         img{
             width: 30px;
