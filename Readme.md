@@ -1,4 +1,4 @@
-##  📍HTML,CSS Project - JIHEE BREAKFAST RESTAURANT | 지희 아침식사 레스토랑
+##  📍HTML,CSS Project - JIHEE BREAKFAST | 지희 아침식사
 
 ##### HTML + SCSS/CSS - 음식점 웹사이트
 
